@@ -1,0 +1,22 @@
+type: edu
+custom_name: Keanu is writing his most famous quotes!
+files:
+- name: keanu_quotes.txt
+  visible: true
+- name: main.go
+  visible: true
+  placeholders:
+  - offset: 437
+    length: 1
+    placeholder_text: type here
+  - offset: 448
+    length: 1
+    placeholder_text: '?'
+  - offset: 530
+    length: 1
+    placeholder_text: '?'
+  - offset: 533
+    length: 1
+    placeholder_text: type here
+- name: tests.py
+  visible: false

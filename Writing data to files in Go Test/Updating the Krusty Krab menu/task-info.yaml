@@ -1,0 +1,15 @@
+type: edu
+files:
+- name: tests.py
+  visible: true
+- name: main.go
+  visible: true
+  placeholders:
+  - offset: 394
+    length: 1
+    placeholder_text: type here
+  - offset: 398
+    length: 1
+    placeholder_text: type here
+- name: galley_grub.txt
+  visible: true
