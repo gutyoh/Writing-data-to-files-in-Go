@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	// DO NOT DELETE! This creates the 'galley_grub.txt' file and then opens it in read-write mode
-	file, err := os.OpenFile("galley_grub.txt", os.O_APPEND, 0644)
+	// DO NOT DELETE! This opens the 'galley_grub.txt' file in read-write|append mode
+	file, err := os.OpenFile("galley_grub.txt", os.O_RDWR|os.O_APPEND, 0644)
 	if err != nil {
 		log.Println(err)
 	}

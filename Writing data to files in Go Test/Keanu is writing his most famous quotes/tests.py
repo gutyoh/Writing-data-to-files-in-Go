@@ -7,11 +7,6 @@ inputs = [
     "that's my job, that's what I do!"
 ]
 
-# Create new file 'keanu_quotes.txt'
-with open("keanu_quotes.txt", "w") as f:
-    for i in inputs:
-        f.write(i)
-
 FILENAME = "keanu_quotes.txt"
 
 

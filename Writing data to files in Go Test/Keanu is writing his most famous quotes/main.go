@@ -22,7 +22,7 @@ func main() {
 	for _, ? := range ? { // iterate over each line of the 'quotes' slice here
 		_, err := fmt.Fprintln(?, ?) // // write each line of the 'quotes' slice of strings to 'file' here
 		if err != nil {
-			log.Println(err)
+			log.Println(err) // do not delete the error output line!
 		}
 	}
 }
